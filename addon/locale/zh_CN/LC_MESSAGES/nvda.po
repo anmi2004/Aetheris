@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'Aetheris' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'Aetheris' '1.0.0'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-03-30 13:54+0800\n"
+"PO-Revision-Date: 2026-03-30 14:01+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: addon\globalPlugins\aetheris\gui.py:7
+msgid "白噪声插件设置"
+msgstr ""
+
+#. --- 5. 级联式交互界面 ---
+#. 方案列表
+#: addon\globalPlugins\aetheris\gui.py:17
+msgid "配置方案列表:"
+msgstr ""
+
+#: addon\globalPlugins\aetheris\gui.py:24
+msgid "声音类型:"
+msgstr ""
+
+#: addon\globalPlugins\aetheris\gui.py:32
+msgid "音效文件:"
+msgstr ""
+
+#. 控制组件 (三级)
+#: addon\globalPlugins\aetheris\gui.py:39
+msgid "启用此声音"
+msgstr ""
+
+#: addon\globalPlugins\aetheris\gui.py:42
+msgid "启用空间声像 (随机左右声道)"
+msgstr ""
+
+#: addon\globalPlugins\aetheris\gui.py:47
+msgid "音量:"
+msgstr ""
+
+#: addon\globalPlugins\aetheris\init.py:39
+msgid "白噪声环境音(&W)"
+msgstr ""
+
+#: addon\globalPlugins\aetheris\init.py:51
+msgid "白噪声已停止"
+msgstr ""
+
+#: addon\globalPlugins\aetheris\init.py:53
+msgid "停止播放所有白噪声。"
+msgstr ""
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Aetheris"
+msgstr "清角"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"The NVDA White Noise plugin  \n"
+"Supports custom noise folders and multi‑sound mixing  \n"
+"Supports user‑defined white noise profiles  \n"
+"Supports randomized playback delay and randomized spatial positioning for "
+"audio"
+msgstr ""
