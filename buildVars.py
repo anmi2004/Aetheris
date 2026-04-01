@@ -23,18 +23,15 @@ addon_info = {
 	"addon_summary": _("Aetheris"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description": _("""The NVDA White Noise plugin  
-Supports custom noise folders and multi‑sound mixing  
-Supports user‑defined white noise profiles  
-Supports randomized playback delay and randomized spatial positioning for audio"""),
+	"addon_description": _("""A white‑noise and ambient‑sound plugin for NVDA with multi‑track playback and full support for user‑supplied audio."""),
 	# version
 	"addon_version": "1.0.0",
 	# Author(s)
 	"addon_author": "anmi2004 <123346lv@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url": None,
+	"addon_url": "https://github.com/anmi2004/Aetheris",
 	# URL for the add-on repository where the source code can be found
-	"addon_sourceURL": None,
+	"addon_sourceURL": "https://github.com/anmi2004/Aetheris",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'Aetheris' '1.0.0'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-03-30 13:54+0800\n"
-"PO-Revision-Date: 2026-03-30 14:01+0800\n"
+"POT-Creation-Date: 2026-04-01 18:55+0800\n"
+"PO-Revision-Date: 2026-04-01 22:14+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,63 +18,95 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-#: addon\globalPlugins\aetheris\gui.py:7
-msgid "白噪声插件设置"
-msgstr ""
-
-#. --- 5. 级联式交互界面 ---
-#. 方案列表
-#: addon\globalPlugins\aetheris\gui.py:17
-msgid "配置方案列表:"
-msgstr ""
-
-#: addon\globalPlugins\aetheris\gui.py:24
-msgid "声音类型:"
-msgstr ""
-
-#: addon\globalPlugins\aetheris\gui.py:32
-msgid "音效文件:"
-msgstr ""
-
-#. 控制组件 (三级)
-#: addon\globalPlugins\aetheris\gui.py:39
-msgid "启用此声音"
-msgstr ""
-
-#: addon\globalPlugins\aetheris\gui.py:42
-msgid "启用空间声像 (随机左右声道)"
-msgstr ""
-
-#: addon\globalPlugins\aetheris\gui.py:47
-msgid "音量:"
-msgstr ""
-
-#: addon\globalPlugins\aetheris\init.py:39
-msgid "白噪声环境音(&W)"
-msgstr ""
-
-#: addon\globalPlugins\aetheris\init.py:51
-msgid "白噪声已停止"
-msgstr ""
-
-#: addon\globalPlugins\aetheris\init.py:53
-msgid "停止播放所有白噪声。"
-msgstr ""
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
-#: buildVars.py:23
+#: addon\globalPlugins\aetheris\__init__.py:30 buildVars.py:23
 msgid "Aetheris"
-msgstr "清角"
+msgstr "伶伦"
+
+#: addon\globalPlugins\aetheris\__init__.py:50
+msgid "Open Aetheris settings dialog"
+msgstr "打开伶伦设置对话框"
+
+#: addon\globalPlugins\aetheris\__init__.py:55
+msgid "Aetheris stopped"
+msgstr "关闭伶伦"
+
+#: addon\globalPlugins\aetheris\__init__.py:58
+msgid "Aetheris: Please set base directory in settings"
+msgstr "请在设置对话框内设置音频目录"
+
+#: addon\globalPlugins\aetheris\__init__.py:61
+msgid "Aetheris started"
+msgstr "开启伶伦"
+
+#: addon\globalPlugins\aetheris\__init__.py:63
+msgid "Toggle Aetheris playback on or off"
+msgstr "开关伶伦"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:14
+msgid "Aetheris White Noise Settings"
+msgstr "伶伦设置"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:33
+msgid "Base &Directory:"
+msgstr "音频目录："
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:36
+msgid "&Browse..."
+msgstr "浏览"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:41
+msgid "&Category:"
+msgstr "类别："
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:45
+msgid "&Audio Files:"
+msgstr "音频："
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:49
+msgid "Track Controls"
+msgstr "音频控制"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:52
+msgid "&Enable Track"
+msgstr "启用"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:53
+msgid "R&andom Trigger"
+msgstr "随机播放"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:69
+msgid "&OK"
+msgstr "确定"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:70
+msgid "C&ancel"
+msgstr "取消"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:71
+msgid "&Apply"
+msgstr "应用"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:145
+msgid "Select Audio Directory"
+msgstr "选择音频路径"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:203
+msgid "Active Tracks: None"
+msgstr "没有启用的音频"
+
+#: addon\globalPlugins\aetheris\plugin_gui.py:206
+msgid "Active Tracks: "
+msgstr "启用的音频："
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:26
 msgid ""
-"The NVDA White Noise plugin  \n"
-"Supports custom noise folders and multi‑sound mixing  \n"
-"Supports user‑defined white noise profiles  \n"
-"Supports randomized playback delay and randomized spatial positioning for "
-"audio"
+"A white‑noise and ambient‑sound plugin for NVDA with multi‑track playback "
+"and full support for user‑supplied audio."
 msgstr ""
+"伶伦是一款为 NVDA 设计的白噪声与环境音播放插件，支持多音轨播放、独立音量控"
+"制、随机播放等功能，并提供简单易用的设置界面。"
